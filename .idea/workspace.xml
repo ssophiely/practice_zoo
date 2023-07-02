@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b0badd-29f5-4e86-b129-03f270816ab1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Zoo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/naturalArea.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Zoo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Zoo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/naturalArea.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NaturalArea.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,8 @@
       <updated>1688131952651</updated>
       <workItem from="1688131954408" duration="455000" />
       <workItem from="1688132432839" duration="1866000" />
+      <workItem from="1688135350481" duration="3640000" />
+      <workItem from="1688203335152" duration="11316000" />
     </task>
     <servers />
   </component>
