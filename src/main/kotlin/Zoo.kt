@@ -1,4 +1,4 @@
-class Zoo(val animalList: MutableList<Animal> = mutableListOf<Animal>()) {
+class Zoo(val animalList: MutableList<Animal>) {
     operator fun unaryMinus(): Int {
         return animalList.size
     }
@@ -15,13 +15,22 @@ class Zoo(val animalList: MutableList<Animal> = mutableListOf<Animal>()) {
         return animalList.filter { it.type == _type }
     }
 
-    fun calculateFoodPerMonth(habitat: String): Double {
-        return animalList.filter { it.area.name == habitat }.sumOf { it.cost * 30 }
+    fun calculateFoodPerMonth(habitat: String): Int {
+        return animalList.filter { it.area.n == habitat }.sumOf { it.cost * 30 }
 
     }
 
-    fun modifyAnimal(index: Int, func: (an: Animal) -> Unit) {
+    fun modifyAnimal(index: Int, func: (an: Animal) -> Unit): String {
         func(animalList[index - 1])
+        return animalList[index - 1].toString()
+    }
+
+    override fun toString(): String {
+        var str = ""
+        for (an in animalList) {
+            str += an.toString()
+        }
+        return str
     }
 }
 

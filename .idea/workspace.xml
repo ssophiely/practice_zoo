@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5b0badd-29f5-4e86-b129-03f270816ab1" name="Changes" comment="">
+    <list default="true" id="b5b0badd-29f5-4e86-b129-03f270816ab1" name="Changes" comment="main updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Zoo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Zoo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/naturalArea.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NaturalArea.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +53,17 @@
       <workItem from="1688131954408" duration="455000" />
       <workItem from="1688132432839" duration="1866000" />
       <workItem from="1688135350481" duration="3640000" />
-      <workItem from="1688203335152" duration="11316000" />
+      <workItem from="1688203335152" duration="12259000" />
+      <workItem from="1688554946639" duration="8628000" />
     </task>
+    <task id="LOCAL-00001" summary="functions added">
+      <created>1688308124953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688308124953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +79,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="functions added" />
+    <MESSAGE value="main updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="main updated" />
   </component>
 </project>
