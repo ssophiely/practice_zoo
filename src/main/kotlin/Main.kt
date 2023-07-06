@@ -23,21 +23,21 @@ fun main() {
             Animal("Белый медведь", 3, "Умка", NaturalArea.ARCTIC, 800),
         )
     )
-    println("Зоопарк zoo2:\n${zoo2}")
+    println("\nЗоопарк zoo2:\n${zoo2}")
 
     val zoo3 = zoo1 + zoo2
-    println("Количество животных в zoo3: ${-zoo3}")
+    println("\nКоличество животных в zoo3: ${-zoo3}")
     println("Зоопарк zoo3:\n${zoo3}")
-    println("Поиск по имени Герда:\n${(zoo3 findByName "Герда").joinToString("")}")
-    println("Поиск по виду полярная сова:\n${(zoo3 findByType "Полярная сова").joinToString("")}")
+    println("\nПоиск по имени Герда:\n${(zoo3 findByName "Герда").joinToString("\n")}")
+    println("\nПоиск по виду полярная сова:\n${(zoo3 findByType "Полярная сова").joinToString("\n")}")
     println(
-        "Фильтрация животных (природная зона - саванна):\n${
+        "\nФильтрация животных (природная зона - саванна):\n${
             (zoo3.filterBy { an: Animal -> an.area.n == "Саванна" }).joinToString(
-                ""
+                "\n"
             )
         }"
     )
-    println("Расчет затрат за месяц по саванне: ${zoo3.calculateFoodPerMonth("Саванна")}")
+    println("\nРасчет затрат за месяц по саванне: ${zoo3.calculateFoodPerMonth("Саванна")}")
     println("\nДанные о животном изменены:\n${zoo3.modifyAnimal(2) { an: Animal -> an.cost = 1300 }}")
-    println("Фильтрация животных (возраст > 5):\n${(zoo3.filterBy { an: Animal -> an.age > 5 }).joinToString("")}")
+    println("\nФильтрация животных (возраст > 5):\n${(zoo3.filterBy { an: Animal -> an.age > 5 }).joinToString("\n")}")
 }

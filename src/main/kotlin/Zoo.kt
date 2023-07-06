@@ -26,11 +26,7 @@ class Zoo(val animalList: MutableList<Animal>) {
     }
 
     override fun toString(): String {
-        var str = ""
-        for (an in animalList) {
-            str += an.toString()
-        }
-        return str
+        return animalList.joinToString("\n")
     }
 }
 
