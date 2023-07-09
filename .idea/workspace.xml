@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5b0badd-29f5-4e86-b129-03f270816ab1" name="Changes" comment="main updated">
+    <list default="true" id="b5b0badd-29f5-4e86-b129-03f270816ab1" name="Changes" comment="toString() modified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Animal.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/NaturalArea.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/NaturalArea.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Zoo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Zoo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +56,7 @@
       <workItem from="1688132432839" duration="1866000" />
       <workItem from="1688135350481" duration="3640000" />
       <workItem from="1688203335152" duration="12259000" />
-      <workItem from="1688554946639" duration="9938000" />
+      <workItem from="1688554946639" duration="20285000" />
     </task>
     <task id="LOCAL-00001" summary="functions added">
       <created>1688308124953</created>
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688650884155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="toString() modified">
+      <created>1688661129311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688661129311</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +99,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="functions added" />
     <MESSAGE value="main updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="main updated" />
+    <MESSAGE value="toString() modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="toString() modified" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

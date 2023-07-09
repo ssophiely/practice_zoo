@@ -16,7 +16,7 @@ class Zoo(val animalList: MutableList<Animal>) {
     }
 
     fun calculateFoodPerMonth(habitat: String): Int {
-        return animalList.filter { it.area.n == habitat }.sumOf { it.cost * 30 }
+        return animalList.filter { it.area.habitat == habitat }.sumOf { it.cost * 30 }
 
     }
 

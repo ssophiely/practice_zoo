@@ -1,4 +1,4 @@
-enum class NaturalArea(val n: String) {
+enum class NaturalArea(val habitat: String) {
     ARCTIC("Арктическая пустыня"),
     TUNDRA("Тундра"),
     RAINFOREST("Тропический лес"),
